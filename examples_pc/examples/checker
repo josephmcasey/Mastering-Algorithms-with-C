@@ -1,0 +1,10 @@
+for a in `ls -1`
+do
+echo $a:
+if [ -d $a ]
+then
+   cd $a
+   grep -n including *-*.c
+   cd ..
+fi
+done

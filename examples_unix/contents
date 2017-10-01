@@ -1,0 +1,93 @@
+source:
+arclen.c     bfs.c        bisearch.c   bistree.c    bit.c       bitree.c
+cbc.c        chtbl.c      clist.c      cover.c      ctsort.c    cvxhull.c
+des.c        dfs.c        directls.c   dlist.c      events.c    fact.c
+factor.c     facttail.c   frames.c     geodist.c    graph.c     hashpjw.c
+heap.c       huffman.c    interpol.c   issort.c     lex.c       lint.c
+list.c       lsqe.c       lz77.c       mgsort.c     mst.c       ohtbl.c
+page.c       parcels.c    qksort.c     queue.c      root.c      route.c
+rsa.c        rxsort.c     set.c        shortest.c   spell.c     stack.c
+transfer.c   traverse.c   tsp.c
+
+include:
+bfs.h        bistree.h    bit.h        bitree.h     cbc.h        chtbl.h
+clist.h      compress.h   cover.h      dfs.h        directls.h   dlist.h
+encrypt.h    event.h      events.h     fact.h       factor.h     facttail.h
+frames.h     geodist.h    geometry.h   graph.h      graphalg.h   hashpjw.h
+heap.h       lex.h        list.h       nummeths.h   ohtbl.h      page.h
+parcel.h     parcels.h    pqueue.h     queue.h      route.h      search.h
+set.h        sort.h       spell.h      stack.h      symbol.h     transfer.h
+traverse.h
+
+examples:
+bistree      bit          bitree       chtbl        clist        compress
+dlist        encrypt      geometry     graph        graphalg     heap
+list         nummeths     ohtbl        pqueue       queue        recurse
+search       set          sort         stack
+
+examples/bistree:
+bistree.mak  ex-1.c
+
+examples/bit:
+bit.mak      ex-1.c
+
+examples/bitree:
+bitree.mak   ex-1.c
+
+examples/chtbl:
+chtbl.mak    ex-1.c
+
+examples/clist:
+clist.mak    page.mak     ex-1.c       ex-2.c
+
+examples/compress:
+compress.mak ex-1.c       sample.txt
+
+examples/dlist:
+dlist.mak    ex-1.c
+
+examples/encrypt:
+encrypt.mak  cbc.mak      ex-1.c       ex-2.c
+
+examples/geometry:
+geometry.mak geodist.mak  ex-1.c       ex-2.c
+
+examples/graph:
+graph.mak    bfs.mak      dfs.mak      ex-1.c       ex-2.c       ex-3.c
+
+examples/graphalg:
+graphalg.mak route.mak    ex-1.c       ex-2.c
+
+examples/heap:
+heap.mak     ex-1.c
+
+examples/list:
+list.mak     ex-1.c
+
+examples/nummeths:
+nummeths.mak ex-1.c
+
+examples/ohtbl:
+ohtbl.mak    ex-1.c
+
+examples/pqueue:
+pqueue.mak   ex-1.c
+
+examples/queue:
+ex-1.c
+queue.mak
+
+examples/recurse:
+fact.mak     factor.mak   ex-1.c       ex-2.c
+
+examples/search:
+search.mak   spell.mak    ex-1.c       ex-2.c
+
+examples/set:
+set.mak      cover.mak    ex-1.c       ex-2.c
+
+examples/sort:
+directls.mak sort.mak     ex-1.c       ex-2.c
+
+examples/stack:
+stack.mak    ex-1.c
