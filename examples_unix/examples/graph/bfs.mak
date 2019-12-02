@@ -44,11 +44,11 @@ LIBFLS =
 # ****************************************************************************
 
 SRCFLS = ex-2.c\
-         $(ALGOWC_TOPDIR/source/bfs.c\
-         $(ALGOWC_TOPDIR/source/graph.c\
-         $(ALGOWC_TOPDIR/source/list.c\
-         $(ALGOWC_TOPDIR/source/queue.c\
-         $(ALGOWC_TOPDIR/source/set.c
+         $(ALGOWC_TOPDIR)/source/bfs.c\
+         $(ALGOWC_TOPDIR)/source/graph.c\
+         $(ALGOWC_TOPDIR)/source/list.c\
+         $(ALGOWC_TOPDIR)/source/queue.c\
+         $(ALGOWC_TOPDIR)/source/set.c
          
 # ****************************************************************************
 # *                                                                          *
